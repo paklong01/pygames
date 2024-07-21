@@ -4,6 +4,7 @@ def main():
     print('1. Kertas')
     print('2. Batu')
     print('3. Gunting')
+    print('4. Keluar')
 
     pilih = int(input('Masukan pilihan anda: '))
     import random
@@ -48,6 +49,9 @@ def main():
             print('Kamu memilih gunting')
             print('Komputer memilih gunting')
             print('Seri!')
+    elif pilih == 4:
+             print('Terima kasih!')
+             exit()
     else:
         print('Pilihan tidak tersedia')
 
